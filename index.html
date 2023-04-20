@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailWindo Formulário</title>
+</head>
+<body class="p-0 m-0 w-screen h-screen flex items-center justify-center">
+    <img src="./img/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg" class=" absolute w-screen h-screen bg-cover bg-no-repeat bg-center">
+    <div class="min-[769px]:w-2/4 h-3/5 mt-2/4 m-auto border-0 flex items-center justify-center rounded bg-blue-400/10 shadow-lg backdrop-blur-xl max-[768px]:w-4/5">
+        <div class="w-4/4 h-4/4 flex flex-col relative">
+            <div class="flex flex-col w-4/4 h-2/4 mb-10 gap-4 max-[768px]:w-3/4 h-4/4 m-auto">
+                <label for="usuario" class="font-bold text-cyan-900">Usuário</label>
+                <input type="text" name="usuario" class=" w-4/4 border-0 border-b border-cyan-900 outline-0 bg-inherit pl-2 focus:border-cyan-600">
+
+                <label class="font-bold text-cyan-900">Senha</label>
+                <input type="password" class="border-0 border-b border-cyan-900 outline-0 bg-inherit pl-2 focus:border-cyan-600">
+            </div>
+            <div class="w-4/4 h-1/4 flex flex-col items-center justify-center gap-1 ">
+                <button class="w-20 h-10 bg-cyan-900 rounded text-white hover:bg-cyan-600 ease-in duration-1000 ease-out duration-1000">Login</button>
+                <p class="text-cyan-950 flex-wrap text-center">Não tem conta? <a href="#" class="hover:text-cyan-500">Cadastre-se aqui.</a> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
